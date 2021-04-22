@@ -1,0 +1,33 @@
+git --version
+
+git config --global user.name sharad
+
+git config --global user.email "sharad.rajore@gmail.com"
+
+git help config
+
+git config --list
+
+Working Area git track
+
+Staging area git add
+
+Local Repository git commit
+
+git status :- not a git repository
+git init :- empty git repo .git
+git status :- untracked files 3
+git add first.txt working - > staging area
+git status :- untracked files 2
+git add second.txt third.txt -> staging area
+
+git commit -m ""-> local git repository
+
+git commit
+
+git log
+
+git diff commitId1 commitId2
+
+
+http://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Setup-and-Config
